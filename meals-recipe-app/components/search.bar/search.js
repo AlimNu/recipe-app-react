@@ -42,7 +42,7 @@ export default function Search() {
         className={styles.search}
         onChange={onChange}
         onFocus={onFocus}
-        placeholder="Search posts"
+        placeholder="your favourite meal"
         type="text"
         value={query}
       />
@@ -57,6 +57,7 @@ export default function Search() {
           ))}
         </ul>
       )}
+      <button id="search" className={styles.btn}><i class="fa fa-search"></i></button>
     </div>
   );
 }

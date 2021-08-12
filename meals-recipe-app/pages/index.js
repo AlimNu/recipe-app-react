@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Search from "../components/search.bar/search.js";
+import GridMenu from "../components/grid.menu/grid.menu.js"
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -17,8 +18,8 @@ export default function Home() {
 
       <Search></Search>
 
-      <h1 className={styles.title}>Favorite Meals</h1>
-
+      <h2 className={styles.title}>Favorite Meals</h2>
+      <GridMenu></GridMenu>
       <p className={styles.description}></p>
 
       <div className={styles.grid}></div>

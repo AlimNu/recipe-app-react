@@ -1,5 +1,7 @@
 .container {
-  position: relative;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
 }
 
 .search {
@@ -30,4 +32,10 @@
 
 .result a {
   color: #eee;
+}
+
+.btn {
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 18px;
 }
